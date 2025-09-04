@@ -1,7 +1,17 @@
+import DateReserve from "@/components/DateReserve";
+import { FormControl, TextField } from "@mui/material"
+
 export default function Booking() {
     return (
-        <main>
-            <div className='text-3xl italic tracking-wider font-stretch-ultra-expanded font-medium'>Venue Booking</div>
+        <main className="w-[100%] flex flex-col items-center gap-[4px]">
+            <div className="text-xl font-medium">Venue Booking</div>
+
+            <FormControl>
+                <TextField label="Name-Lastname" variant="standard" className="m-2"/>
+                <TextField label="Contact-Number" variant="standard" className="m-2"/>
+            </FormControl>
+
+            <DateReserve />
         </main>
     );
 }
