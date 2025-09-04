@@ -12,6 +12,8 @@ export default function Booking() {
             </FormControl>
 
             <DateReserve />
+
+             <button className='bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600' name='Book Venue' type='button'>Book Venue</button>
         </main>
     );
 }

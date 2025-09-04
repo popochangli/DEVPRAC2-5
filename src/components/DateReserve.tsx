@@ -17,8 +17,6 @@ export default function DateReserve() {
             <MenuItem value='Spark'>Spark Space</MenuItem>
             <MenuItem value='GrandTable'>The Grand Table</MenuItem>
         </Select>
-
-        <button className='bg-blue-500 text-white px-5 py-2 rounded-md hover:bg-blue-600' name='Book Venue' type='button'>Book Venue</button>
     </div>
   );
 }
